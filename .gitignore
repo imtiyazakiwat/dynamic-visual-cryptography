@@ -1,0 +1,16 @@
+# Virtual environment
+.venv/
+venv/
+
+# Runtime data: session seeds, logged secret images, channel folders.
+# Never commit this; anyone with it can regenerate every share.
+runs/
+
+# CLI artifact output
+out/
+
+# Python / tooling caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
